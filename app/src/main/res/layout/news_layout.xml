@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="125dp"
+            android:layout_height="199dp" tools:srcCompat="@tools:sample/backgrounds/scenic[1]"
+            android:id="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <TextView
+            android:text="Lorem Ipsum"
+            android:layout_width="179dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="59dp"
+            android:id="@+id/textView" app:layout_constraintStart_toEndOf="@+id/imageView"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.158" android:textStyle="bold" android:textSize="20sp"
+            android:textAllCaps="true" android:textColor="@color/ic_launcher_background"/>
+    <TextView
+            android:text="BY : Lorem Ipsum"
+            android:layout_width="164dp"
+            android:layout_height="22dp" tools:layout_editor_absoluteY="89dp"
+            android:id="@+id/textView2" app:layout_constraintStart_toEndOf="@+id/imageView"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.133"/>
+    <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla, felis ut rhoncus eleifend, turpis orci porta lectus, ultrices dignissim nunc nibh vel ante. Vivamus vitae tempus felis, a aliquam odio. Donec nulla felis, congue at lectus id, eleifend ornare tellus. Suspendisse varius, tortor ac semper gravida, mi erat semper quam, eu maximus orci orci in libero. Aenean et porttitor turpis. Phasellus sed vulputate lacus. "
+            android:layout_width="244dp"
+            android:layout_height="79dp" tools:layout_editor_absoluteY="111dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/textView3"/>
+    <TextView
+            android:text=" 7 Comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="206dp"
+            tools:layout_editor_absoluteX="175dp" android:id="@+id/textView4"/>
+    <ImageView
+            android:layout_width="22dp"
+            android:layout_height="28dp" app:srcCompat="@android:drawable/ic_btn_speak_now"
+            tools:layout_editor_absoluteY="203dp" android:id="@+id/imageView6"
+            app:layout_constraintEnd_toStartOf="@+id/textView4" android:layout_marginEnd="8dp"/>
+    <Button
+            android:text="FILTER"
+            android:layout_width="77dp"
+            android:layout_height="43dp" tools:layout_editor_absoluteY="15dp"
+            tools:layout_editor_absoluteX="317dp" android:id="@+id/button"
+            android:background="@color/secondaryColor"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
